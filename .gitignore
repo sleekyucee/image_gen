@@ -1,0 +1,19 @@
+#ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+#ignore logs, checkpoints, and generated outputs
+*.log
+checkpoints/
+results/
+images/
+
+#ignore system files
+.DS_Store
+Thumbs.db
+
+#ignore environment variable files
+.env
+*.env
+

@@ -1,0 +1,20 @@
+data_settings:
+    use_hyperion: True
+    hyperion_dir: "/users/adgs898/sharedscratch/ffhq_full/images1024x1024"
+    root_dir: "/path/to/images" #replace with path to images
+    image_size: 64
+
+train_settings:
+    batch_size: 64
+    num_epochs: 3
+    learning_rate: 0.0002
+    beta: 1.0
+    latent_dim: 32
+    num_workers: 4
+    early_stopping_patience: 20
+
+model_settings:
+    in_channels: 3
+
+experiment_settings:
+    experiment_name: "VAE_ld32_beta1.0"
