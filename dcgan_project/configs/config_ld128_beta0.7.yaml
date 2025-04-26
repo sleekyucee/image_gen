@@ -1,0 +1,22 @@
+data_settings:
+  use_hyperion: True
+  hyperion_dir: "/users/adgs898/sharedscratch/ffhq_full/images1024x1024"
+  root_dir: "/path/to/images"
+  image_size: 64
+
+train_settings:
+  batch_size: 64
+  nr_epochs: 152
+  lr: 0.0002
+  beta_optim: 0.7
+  num_workers: 4
+
+model_settings:
+  latent_vector_size: 128
+  feature_maps_size_gen: 64
+  feature_maps_size_dis: 64
+  img_channels: 3
+
+experiment_settings:
+  experiment_name: "DCGAN_ld128_beta0.7"
+
